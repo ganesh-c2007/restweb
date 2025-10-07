@@ -1,0 +1,82 @@
+
+
+body {
+  background-image: url('photo-1517248135467-4c7edcad34c4.jpg');
+  background-repeat:no-repeat;
+  object-fit:cover;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+.bagbag{
+    background-repeat:no-repeat;
+    object-fit: cover;
+    width:1500px;
+    text-align: center;
+    height:520px;
+    z-index:-1;
+    position:absolute;
+    top:170px;
+    right:0px;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  border-bottom: 3px solid red;
+}
+
+h1 {
+    position:relative;
+  color: red;
+  right:30%;
+  top:20%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+  left:30%;
+  
+}
+
+nav a.active,
+nav a:hover {
+  color: red;
+  position: relative;
+  left:30%;
+}
+
+
+.home {
+  padding: 40px;
+}
+
+.home img {
+  width: 500px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: 3px solid red;
+}
+
+footer {
+  background-color: #111;
+  color: #aaa;
+  padding: 15px;
+  border-top: 2px solid red;
+}
